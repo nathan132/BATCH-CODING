@@ -1,0 +1,23 @@
+@echo off
+echo                                                                  Batch Test
+echo Enter 1 to go to Menu
+echo Enter 2 to Exit
+
+if %ans%==1 (goto a)
+if %ans%==2 (goto b)
+
+
+
+:a
+cls
+Echo Ur at Menu
+pause
+cls
+goto a
+
+
+:b
+pause
+
+
+--may not work cuz im new to batch
